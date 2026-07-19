@@ -139,6 +139,8 @@ h2 { margin: 0; font-family: var(--serif); font-size: clamp(2.2rem, 4.5vw, 4rem)
 .bio-grid aside a { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: .78rem; font-weight: 700; text-decoration: none; }
 .prose--bio { max-width: 760px; font-family: var(--serif); font-size: 1.2rem; line-height: 1.8; }
 .prose--bio .lede { color: var(--ink); font-size: 1.75rem; line-height: 1.5; }
+.prose--bio a { color: var(--teal); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.prose--bio a:hover { text-decoration-thickness: 2px; }
 
 a:focus-visible, button:focus-visible { outline: 3px solid #f1c15d; outline-offset: 4px; }
 
