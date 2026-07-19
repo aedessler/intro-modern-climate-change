@@ -28,7 +28,7 @@ Then visit `http://localhost:8000`.
 
 The workflow in `.github/workflows/pages.yml` deploys every push to `main`. In the repository settings, choose **GitHub Actions** as the Pages source. The project site will be available at:
 
-`https://aedessler.github.io/intro-modern-climate-change/`
+`https://aedessler.github.io/IMCC-website/`
 
 Do not change DNS for `andrewdessler.com` until the remaining content has been migrated and the Pages custom domain has been configured.
 
