@@ -1,6 +1,6 @@
 # Introduction to Modern Climate Change
 
-Static GitHub Pages migration of [andrewdessler.com](https://www.andrewdessler.com), the companion site for Andrew Dessler’s textbook *Introduction to Modern Climate Change*.
+Static GitHub Pages companion site for Andrew Dessler’s textbook *Introduction to Modern Climate Change*.
 
 ## What is migrated
 
