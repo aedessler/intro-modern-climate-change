@@ -19,3 +19,15 @@ if (toggle && nav) {
 document.querySelectorAll('[data-year]').forEach((node) => {
   node.textContent = new Date().getFullYear();
 });
+
+document.querySelectorAll('a[href]').forEach((link) => {
+  const url = new URL(link.getAttribute('href'), window.location.href);
+  const isExternalWebsite =
+    (url.protocol === 'http:' || url.protocol === 'https:') &&
+    url.origin !== window.location.origin;
+
+  if (isExternalWebsite) {
+    link.target = '_blank';
+    link.rel = 'noopener';
+  }
+});
